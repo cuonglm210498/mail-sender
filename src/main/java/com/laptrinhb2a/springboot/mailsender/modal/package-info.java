@@ -1,0 +1,1 @@
+package com.laptrinhb2a.springboot.mailsender.modal;

@@ -1,0 +1,29 @@
+mailServer:
+  host: "smtp.gmail.com"
+  port: 587
+  email: "lemanhcuong21041998@gmail.com"
+  password: "lefkfnsiglfvvlvj"
+  protocol: "smtp"
+  isSSL: "false"
+
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: Maiyeuem@123
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3307/test
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+      dialect: org.hibernate.dialect.MariaDB106Dialect
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
